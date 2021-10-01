@@ -5,3 +5,9 @@
   color: white;
   font-size: 30px;
 }
+
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #F8998D;
+}
