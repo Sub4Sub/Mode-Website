@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<!DOCTYPE projects SYSTEM "projects.dtd"> 
+<projects>
+	<company>   
+		<company_name>
+			Mosbius Designs
+		</company_name>
+		<company_address> 
+			366 MacLaren St
+		</company_address>
+		<logo img="Berserker_Armour.jpg"/>
+		<website_address>
+			https://mosbius-Designs.com
+		</website_address>
+		<email>
+			tedMosby@gmail.com
+		</email>
+		<phone>
+			289-555-1844
+		</phone>
+	</company>
+	<project projId="ProjectID1">
+		<title>
+			Cowboy Hat Building
+		</title>
+		<managers>
+			<manager> 
+				<name> 
+					<first_name>
+						Michael
+					</first_name>
+					<middle_name>
+						Gary
+					</middle_name>
+					<last_name>
+						Scott
+					</last_name> 
+				</name>
+				<proj_phone type="home">
+					289-555-0099
+				</proj_phone> 
+				<email>
+					MScott@dunder.com
+				</email>
+			</manager>
+		</managers>
+		<teams>
+			<team>
+				<leader>
+					Greg Smith
+				</leader>
+				<developers>
+					Hank Pim
+				</developers>
+				<developers>
+					Jimmy Dean
+				</developers>
+				<tester>
+					Fred Frederson
+				</tester>
+				<documenters>
+					Val Kilmer
+				</documenters>
+			</team>
+		</teams>
+		<clients>
+			<client clientID="ClientID1">
+				<client_name>
+					George McVaine
+				</client_name>
+				<address> 
+					<street>
+						22 Heart St
+					</street>
+					<city>
+						Oshawa
+					</city>
+					<country>
+						Canada
+					</country>
+					<postcode>
+						L9L2G4
+					</postcode>
+				</address>
+				<email>
+					GMV@gmail.com
+				</email>
+				<phone>
+					999-555-1234
+				</phone>
+			</client>
+		</clients>
+		<project_date>
+			<start>
+				June 2, 2018
+			</start>
+			<end>
+				April 16, 2020
+			</end>
+		</project_date>
+		<project_comments>
+			A building shaped like a giant cowboy hat for a local steakhouse.
+		</project_comments>
+	</project>
+	<project projId="ProjectID2">
+		<title>
+			Redesign Apartment
+		</title>
+		<managers>
+			<manager> 
+				<name> 
+					<first_name>
+						Michael
+					</first_name>
+					<middle_name>
+						Gary
+					</middle_name>
+					<last_name>
+						Scott
+					</last_name> 
+				</name>
+				<proj_phone type="home">
+					289-555-0099
+				</proj_phone> 
+				<email>
+					MScott@dunder.com
+				</email>
+			</manager>
+			<manager> 
+				<name> 
+					<first_name>
+						Tessa
+					</first_name>
+					<middle_name>
+						Leah
+					</middle_name>
+					<last_name>
+						Davidson
+					</last_name> 
+				</name>
+				<proj_phone type="office">
+					289-555-0129
+				</proj_phone> 
+				<email>
+					TLD@dunder.com
+				</email>
+			</manager>
+		</managers>
+		<teams>
+			<team>
+				<leader>
+					Frank Lynn
+				</leader>
+				<developers>
+					Hank Pim
+				</developers>
+				<developers>
+					George Lopez
+				</developers>
+				<tester>
+					Jessica Day
+				</tester>
+				<documenters>
+					Martha Stewart
+				</documenters>
+			</team>
+		</teams>
+		<clients>
+			<client clientID="ClientID2">
+				<client_name>
+					Ilya Mikheyev
+				</client_name>
+				<address> 
+					<street>
+						998 Heart St
+					</street>
+					<city>
+						Ottawa
+					</city>
+					<country>
+						Canada
+					</country>
+					<postcode>
+						L7D1K9
+					</postcode>
+				</address>
+				<email>
+					IM@gmail.com
+				</email>
+				<phone>
+					909-555-9725
+				</phone>
+			</client>
+		</clients>
+		<project_date>
+			<start>
+				May 9, 2019
+			</start>
+			<end>
+				March 11, 2020
+			</end>
+		</project_date>
+		<project_comments>
+			Redesigning an apartment.
+		</project_comments>
+	</project>
+</projects>

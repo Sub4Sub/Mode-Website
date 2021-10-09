@@ -1,0 +1,42 @@
+	<!ELEMENT projects (company, project+)>
+		<!ELEMENT company (company_name, company_address, logo, website_address?, email, phone+)>
+			<!ELEMENT company_name (#PCDATA)>
+			<!ELEMENT company_address (#PCDATA)>
+			<!ELEMENT logo EMPTY>
+				<!ATTLIST logo img CDATA #REQUIRED>
+			<!ELEMENT website_address (#PCDATA)>
+			<!ELEMENT email (#PCDATA)>
+			<!ELEMENT phone (#PCDATA)>
+		<!ELEMENT project (title, managers, teams, clients?, project_date, project_comments)>
+			<!ATTLIST project projId ID #REQUIRED>
+			<!ELEMENT title (#PCDATA)>
+			<!ELEMENT managers (manager+)>
+				<!ELEMENT manager (name, proj_phone, email*)>
+					<!ELEMENT name (first_name, middle_name?, last_name)>
+						<!ELEMENT first_name (#PCDATA)>
+						<!ELEMENT middle_name (#PCDATA)>
+						<!ELEMENT last_name (#PCDATA)>
+					<!ELEMENT proj_phone (#PCDATA)>
+						<!ATTLIST proj_phone type (home | office) #REQUIRED>
+					<!ELEMENT email (#PCDATA)>
+			<!ELEMENT teams (team+)>
+				<!ELEMENT team (leader, developers+, tester?, documenters*)>
+					<!ELEMENT leader (#PCDATA)>
+					<!ELEMENT developers (#PCDATA)>
+					<!ELEMENT tester (#PCDATA)>
+					<!ELEMENT documenters (#PCDATA)>
+			<!ELEMENT clients (client+)>
+				<!ELEMENT client (client_name, address, email, phone)>
+					<!ATTLIST client clientID ID #REQUIRED>
+					<!ELEMENT client_name (#PCDATA)>
+					<!ELEMENT address (street?, city, country, postcode?)>
+						<!ELEMENT street (#PCDATA)>
+						<!ELEMENT city (#PCDATA)>
+						<!ELEMENT country (#PCDATA)>
+						<!ELEMENT postcode (#PCDATA)>
+					<!ELEMENT email (#PCDATA)>
+					<!ELEMENT phone (#PCDATA)>
+			<!ELEMENT project_date (start, end)>
+				<!ELEMENT start (#PCDATA)>
+				<!ELEMENT end (#PCDATA)>
+			<!ELEMENT project_comments (#PCDATA)>
